@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UFT-8">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+    <form action="#" method="get">
+        <label for="nombreID">Ingrese su nombre:</label>
+        <input type="text" name="nombre" id="nombreID" placeholder="Eje: Nico">
+        <br>
+        <label for="pwd">COntrasenia</label>
+        <input type="password" name="pwf" id="pwd" required>
+        <br><label for="edad">Edad:</label>
+        <input type="number" name="edad" id="edad" min="1" max="200">
+        <br>
+        <label for="fecha">Fecha</label>
+        <input type="date" name="fecha" id="fecha">
+        <br>
+        <label for="fechaHora">Fecha Hora</label>
+        <input type="datetime-local" name="fechaHora" id="fechaHora">
+        <br>
+        <label for="color">Color</label>
+        <input type="color", name="color" id="color">
+        <br>
+        <label for="email">Email</label>
+        <input type="email", name="email" id="email" placeholder="example@gmail.com">
+        <br>
+        <label for="mes">mes</label>
+        <input type="month" name="mes" id="mes">
+        <br>
+        <label for="semana">Semana</label>
+        <input type="week" name="semana" id="semana">
+        <br>
+        <label for="archivo">Archivo</label>
+        <input type="file" name="archivo" id="archivo">
+        <br>
+        <label for="check">Checkbox</label>
+        <label>
+            <input type="checkbox" name="ejemplocheck1"> Opcion 1
+        </label>
+        <label>
+            <input type="checkbox" name="ejemplocheck2"> Opcion 2
+        </label>
+        <br>
+        <label for="radio">RadioButton</label>
+        <label>
+            <input type="radio" name="eradio1" value="1"> Opcion 1
+        </label>
+        <label>
+            <input type="radio" name="radio1" value="2"> Opcion 2
+        </label>
+        <br>
+
+
+
+
+    </form>
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+</html>
